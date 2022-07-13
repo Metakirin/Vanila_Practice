@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Drag & Drop | Проект 2</title>
+  </head>
+  <body>
+    <div class="kingdooms">
+      <h1>Kingdooms</h1>
+
+      <div class="item i1" data-id="human" draggable="true"></div>
+      <div class="item i2" data-id="spirit" draggable="true"></div>
+      <div class="item i3" data-id="magic" draggable="true"></div>
+      <div class="item i4" data-id="north" draggable="true"></div>
+    </div>
+
+    <div class="row-group">
+      <div class="row">
+        <div class="col-header north">Northern lands</div>
+        <div class="col-header spirit">Spirits fortress</div>
+        <div class="col-header magic">Magician stronghold</div>
+        <div class="col-header human">Humans citadel</div>
+      </div>
+
+      <div class="row">
+        <div class="placeholder"></div>
+        <div class="placeholder"></div>
+        <div class="placeholder"></div>
+        <div class="placeholder"></div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url('https://wallpaper.dog/large/744295.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #122150c2;
+  margin: 2px;
+  box-shadow: 0 0 2px black;
+  transition: 2s ease;
+}
+
+.square:hover {
+  transition-duration: 0s;
+}

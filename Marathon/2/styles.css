@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e5e5e5;
+  display: flex;
+  padding-top: 5rem;
+  justify-content: space-between;
+  overflow: hidden;
+  margin: 0;
+}
+
+.kingdooms {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  width: 1100px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  margin-right: 50px;
+}
+
+.col-header {
+  width: 200px;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  color: #fff;
+}
+
+.item {
+  width: 200px;
+  height: 100px;
+  border: 1px solid #eee;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  background: #f7f6f7;
+  padding: 0.8rem 1rem;
+  color: #828282;
+  text-align: center;
+  cursor: grab;
+  margin-bottom: 10px;
+}
+
+.i1 {
+  background: url('https://c4.wallpaperflare.com/wallpaper/306/115/789/fantasy-city-kingdom-under-fire-wallpaper-preview.jpg');
+  background-size: cover;
+}
+.i2 {
+  background: url('https://images7.alphacoders.com/719/719157.jpg');
+  background-size: cover;
+}
+.i3 {
+  background: url('https://images.alphacoders.com/475/475368.jpg');
+  background-size: cover;
+}
+.i4 {
+  background: url('https://images5.alphacoders.com/527/527930.jpg');
+  background-size: cover;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  width: 200px;
+  height: 100px;
+}
+
+.north {
+  background: linear-gradient(39deg, #5daafa 0%, #ffffff 179.25%);
+}
+
+.spirit {
+  background: linear-gradient(125deg, #167605 0%, #7ef0e0 100%);
+}
+
+.magic {
+  background: linear-gradient(90deg, #2e0690 0%, #d28ff4 100%);
+}
+
+.human {
+  background: linear-gradient(47deg, #000000 0%, #c0c0c0 100%);
+}
+
+.hold {
+  border: black 1px solid;
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  border-top: 1px solid #000;
+}
