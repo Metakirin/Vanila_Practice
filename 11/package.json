@@ -1,0 +1,24 @@
+{
+  "name": "HW_13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Metakirin/HW_13.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Metakirin/HW_13/issues"
+  },
+  "homepage": "https://github.com/Metakirin/HW_13#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

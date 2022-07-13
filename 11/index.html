@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./js/app.js" defer></script>
+    <!-- <link rel="stylesheet" href="./css/bootstrap.css"> -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"> -->
+  </head>
+  <style>
+    body {
+      background: url(./img/bg.jpg) no-repeat;
+    }
+
+    .note {
+      position: absolute;
+      border-radius: 7px;
+      width: 300px;
+      height: 400px;
+      background-image: url(./img/note4.png);
+      background-size: cover;
+    }
+
+    .note__close {
+      cursor: pointer;
+      background-image: url(./img/cross.png);
+      background-repeat: no-repeat;
+      width: 30px;
+      height: 30px;
+      background-size: contain;
+      position: relative;
+      left: 250px;
+      top: 25px;
+    }
+
+    .note__content {
+      font-family: "Mr Dafoe", cursive;
+      font-size: 30px;
+      padding-top: 75px;
+      padding-left: 60px;
+      padding-right: 52px;
+      word-wrap: break-word;
+    }
+
+    .note__textarea {
+      background-color: rgba(61, 60, 60, 0.178);
+      border: none;
+      border-radius: 5px;
+      font-family: "Mr Dafoe", cursive;
+      font-size: 30px;
+      width: 60%;
+      height: 170px;
+      position: absolute;
+      top: 103px;
+      left: 58px;
+    }
+
+    .note__rewrite {
+      cursor: pointer;
+      background-image: url(./img/inc.png);
+      width: 50px;
+      height: 70px;
+      background-size: cover;
+      position: absolute;
+      bottom: 47px;
+      left: 37px;
+    }
+
+    .addscroll {
+      cursor: pointer;
+      background-image: url(./img/scroll4.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 150px;
+      height: 200px;
+    }
+  </style>
+
+  <body>
+    <div class="addscroll" id="newNoteBtn"></div>
+    <div class="container"></div>
+  </body>
+</html>
