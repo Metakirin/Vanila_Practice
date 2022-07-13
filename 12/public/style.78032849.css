@@ -1,0 +1,79 @@
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+  background-color: rgba(109, 109, 109, 0.349);
+}
+
+.container {
+  margin-top: 50px;
+}
+
+body {
+  background-image: url(1.06f8af9e.png);
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+}
+
+.dairy {
+  color: rgb(161, 161, 161);
+}
+
+.list-item {
+  color: rgba(0, 0, 0, 0.911);
+  font-size: 15px;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(116, 116, 116, 0.575);
+  cursor: pointer;
+}
+
+.list-item.active {
+  background-color: rgba(148, 148, 148, 0.349);
+  color: #d1d1d1;
+
+}
+
+.list-item:hover {
+  color: #d1d1d1;
+}
+
+.list-item h5 {
+  margin-bottom: 0.25rem;
+}
+
+.list-item small {
+  color: rgb(0, 0, 0);
+}
+
+.list-item h5, .list-item small {
+  pointer-events: none;
+}
+
+.modal-content {
+  background-color: rgba(187, 187, 187, 0.692);
+}
+
+textarea.form-control {
+  background-color: rgba(179, 174, 174, 0.432);
+  border: none;
+  color: white;
+}
+
+input.form-control {
+  background-color: rgba(179, 174, 174, 0.432);
+  border: none;
+  color: white;
+  }
+
+.btnconstruction {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  justify-content: right;
+}
+
+.content-title {
+  color: #a7a7a7;
+}
+
+/*# sourceMappingURL=style.78032849.css.map */
